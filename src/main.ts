@@ -9,8 +9,4 @@ import icons from './global/register-icons'
 
 const app = createApp(App)
 
-console.log('22222')
-console.log('1111')
-console.log('33333');
-
 app.use(icons).use(store).use(router).mount('#app')
